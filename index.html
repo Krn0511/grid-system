@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Gallery</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <style>
+    /* Customize CSS here */
+    /* Custom CSS */
+    .gallery {
+      margin-top: 20px;
+    }
+
+    .card {
+      transition: transform 0.2s;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+    .card-img-top {
+      height: 200px; /* Set a fixed height for all images */
+      object-fit: cover; /* Ensure image fills the container without being cropped */
+    }
+
+    .card-title {
+      font-size: 1.2rem;
+    }
+
+    .card-text {
+      font-size: 0.9rem;
+    }
+    .image-title {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      background-color: rgba(0, 0, 0, 0.5);
+      color: white;
+      padding: 5px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="th.jpg" class="card-img-top" alt="Image 1">
+          <div class="card-body">
+            <h5 class="card-title">Kim Taehyung</h5>
+            <p class="card-text">Kim Tae-hyung ( Korean : 김태형; born December 30, 1995), 
+                known professionally as V ( 뷔 ), 
+                is a South Korean singer, songwriter, 
+                and a member of the boy band BTS</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="mingyu.jpeg" class="card-img-top" alt="Image 2">
+          <div class="card-body">
+            <h5 class="card-title">Kim Mingyu</h5>
+            <p class="card-text">Kim Mingyu (김민규) is the main rapper, 
+              visual, and face of the boy group SEVENTEEN under 
+              sPledis Entertainment. He is also a member of the group's rap unit.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="eunwoon.webp" class="card-img-top" alt="Image 3">
+          <div class="card-body">
+            <h5 class="card-title">Cha Eun-Woo</h5>
+            <p class="card-text">Lee Dong-min (Korean: 이동민; born March 30, 1997), 
+              known professionally as Cha Eun-woo (차은우), is a South Korean singer 
+              and actor under the label Fantagio. 
+              He is a member of the South Korean boy band Astro.</p>
+          </div>
+        </div>
+      </div>
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="jin.webp" class="card-img-top" alt="Image 1">
+              <div class="card-body">
+                <h5 class="card-title">Kim Seok-jin</h5>
+                <di<p class="card-text">Kim Seok-jin (김석진), better known by the mononym Jin (진), 
+                  is a South Korean singer-songwriter and record producer under Big Hit Music. 
+                  He is a member in the boy group BTS, and has the positions of vocalist and visual.</p>
+              </div>
+            </div>
+           
+      <!-- Add more columns for additional images -->
+    </div>
+  </div>
+
+  <!-- Bootstrap JS and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
